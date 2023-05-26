@@ -11,8 +11,8 @@
 <body>
 
 <!-----------------------------------------------HEADER----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-    <header class="text-gray-400 bg-gray-900 body-font" style="background-color: #0d131e;">
-    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <header class="text-gray-400 bg-gray-900 body-font sticky top-0" style="background-color: #0d131e; opacity: 100; z-index: 10;">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center" style=" opacity: 100">
         <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
             <img src="shoe-icon.png" alt="shoe-icon" width="50" height="50" class="shoe-logo">
             <style>
@@ -219,8 +219,8 @@
     <div class="lg:w-2/3 mx-auto">
       <div class="flex flex-wrap w-full bg-gray-700 py-32 px-10 relative mb-4">
         <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src="unicornshoe.jpg">
-        <div class="text-center relative z-10 w-full">
-          <h2 class="text-2xl text-white font-medium title-font mb-2">Unicorn</h2>
+        <div class="text-center relative z-0 w-full">
+          <h2 class="text-2xl text-white font-medium title-font mb-2" style="z-index: 0">Unicorn</h2>
           <p class="leading-relaxed">Who says unicorns are just for girls?</p>
           <a class="mt-3 text-purple-300 inline-flex items-center">Buy now
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
@@ -233,7 +233,7 @@
         <div class="px-2 w-1/2">
           <div class="flex flex-wrap w-full bg-gray-700 sm:py-24 py-16 sm:px-10 px-6 relative">
             <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src="greyshoe.jpg">
-            <div class="text-center relative z-10 w-full">
+            <div class="text-center relative z-0 w-full">
               <h2 class="text-xl text-white font-medium title-font mb-2">Gelileo Gelilei</h2>
               <p class="leading-relaxed">Walk your way to the gray space!</p>
               <a class="mt-3 text-purple-300 inline-flex items-center">Buy now
@@ -247,7 +247,7 @@
         <div class="px-2 w-1/2">
           <div class="flex flex-wrap w-full bg-gray-800 sm:py-24 py-16 sm:px-10 px-6 relative">
             <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src="blueshoe.jpg">
-            <div class="text-center relative z-10 w-full">
+            <div class="text-center relative z-0 w-full">
               <h2 class="text-xl text-white font-medium title-font mb-2">Oceania</h2>
               <p class="leading-relaxed">Underwater soccer? IP69X got you!</p>
               <a class="mt-3 text-purple-300 inline-flex items-center">Buy now
@@ -268,7 +268,7 @@
     <section class="text-gray-400 bg-gray-900 body-font overflow-hidden" style="margin-top: -75px;">
     <div class="container px-5 py-24 mx-auto">
         <div class="lg:w-4/5 mx-auto flex flex-wrap">
-        <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="redblackshoe.jpg">
+        <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="redblackshoe.jpg" style="height: 480px; width: 480px">
         <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
             <h2 class="text-sm title-font text-gray-500 tracking-widest">Mochii</h2>
             <h1 class="text-white text-3xl title-font font-medium mb-1">Not MKBHD shoes</h1>
@@ -402,70 +402,67 @@
         </div>
         <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+            <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">COLLECTION</h2>
             <nav class="list-none mb-10">
             <li>
-                <a class="text-gray-400 hover:text-white">First Link</a>
+                <a class="text-gray-400 hover:text-white">Mem shoes</a>
             </li>
             <li>
-                <a class="text-gray-400 hover:text-white">Second Link</a>
+                <a class="text-gray-400 hover:text-white">Women shoes</a>
             </li>
             <li>
-                <a class="text-gray-400 hover:text-white">Third Link</a>
+                <a class="text-gray-400 hover:text-white">Kids shoes</a>
             </li>
             <li>
-                <a class="text-gray-400 hover:text-white">Fourth Link</a>
+                <a class="text-gray-400 hover:text-white">Accessories</a>
             </li>
             </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+            <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CUSTOMER</h2>
             <nav class="list-none mb-10">
             <li>
-                <a class="text-gray-400 hover:text-white">First Link</a>
+                <a class="text-gray-400 hover:text-white">Contact us</a>
             </li>
             <li>
-                <a class="text-gray-400 hover:text-white">Second Link</a>
+                <a class="text-gray-400 hover:text-white">Shoe care tips</a>
             </li>
             <li>
-                <a class="text-gray-400 hover:text-white">Third Link</a>
+                <a class="text-gray-400 hover:text-white">Foot care tips</a>
             </li>
             <li>
-                <a class="text-gray-400 hover:text-white">Fourth Link</a>
+                <a class="text-gray-400 hover:text-white">Buying guide</a>
             </li>
             </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+            <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">KNOW US</h2>
             <nav class="list-none mb-10">
             <li>
-                <a class="text-gray-400 hover:text-white">First Link</a>
+                <a class="text-gray-400 hover:text-white">About us</a>
             </li>
             <li>
-                <a class="text-gray-400 hover:text-white">Second Link</a>
+                <a class="text-gray-400 hover:text-white">Careers</a>
             </li>
             <li>
-                <a class="text-gray-400 hover:text-white">Third Link</a>
+                <a class="text-gray-400 hover:text-white">FAQ's</a>
             </li>
             <li>
-                <a class="text-gray-400 hover:text-white">Fourth Link</a>
+                <a class="text-gray-400 hover:text-white">Store locator</a>
             </li>
             </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+            <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">POLICIES</h2>
             <nav class="list-none mb-10">
             <li>
-                <a class="text-gray-400 hover:text-white">First Link</a>
+                <a class="text-gray-400 hover:text-white">Terms & Conditions</a>
             </li>
             <li>
-                <a class="text-gray-400 hover:text-white">Second Link</a>
+                <a class="text-gray-400 hover:text-white">Shopping & Return policy</a>
             </li>
             <li>
-                <a class="text-gray-400 hover:text-white">Third Link</a>
-            </li>
-            <li>
-                <a class="text-gray-400 hover:text-white">Fourth Link</a>
+                <a class="text-gray-400 hover:text-white">Privacy policy</a>
             </li>
             </nav>
         </div>
